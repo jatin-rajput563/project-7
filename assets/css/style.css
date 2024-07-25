@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
 * {
     padding: 0;
@@ -44,25 +44,22 @@ section {
 }
 
 .card {
-    background-color: #f5f5f6;
-    border-radius: 10px;
-    width: 730px;
-    height: 304px;
-    align-items: center;
-    display: flex;
-    text-align: left;
-    color: #1E0E62;
-    font-family: Inconsolata;
+    font-family: "Inconsolata", monospace;
     font-size: 16px;
     line-height: 22px;
+    width: 770px;
+    height: 304px;
+    border-radius: 10px;
     text-align: left;
-
+    display: flex;
+    align-items: center;
+    color: #1E0E62;
+    background-color: #f5f5f6;
 }
 
 .parent {
     display: flex;
     gap: 10px;
-
 }
 
 .para {
@@ -75,8 +72,8 @@ section {
     font-family: "DM Sans", sans-serif;
     margin-top: 10px;
 }
-.code {
 
+.code {
     font-size: 14px;
     line-height: 26px;
     letter-spacing: 2px;
@@ -95,5 +92,30 @@ section {
     letter-spacing: -0.4000000059604645px;
     text-align: left;
     margin-bottom: 40px;
+}
 
+.all {
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.btn {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    background-color: white;
+    margin-left: 460px;
+    margin-top: 20px;
+    color: #1E0E62;
+}
+
+.btn:hover {
+    background-color: gray;
+    color: white;
 }
